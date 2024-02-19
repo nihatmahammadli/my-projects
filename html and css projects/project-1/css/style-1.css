@@ -1,0 +1,50 @@
+
+.box-1{
+    background-color: rgb(49, 2, 87);
+    color: white;
+    margin: 20px 520px 10px 120px;
+    padding-left: 20px;
+    padding: 45px;
+    border-radius: 5px;
+}
+.box-1 h3{
+    margin-top: -20px;
+    margin-left: -25px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.box-1 p{
+    margin-top: -10px;
+    margin-left: -25px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.box-1 .form{
+    margin-left: -25px;
+}
+.box-1 .form form .email, .tel{
+
+    height: 45px;
+    margin-right: 6px;
+    border-radius: 5px;
+    border-color: none;
+    margin-bottom: 20px;
+    margin-top: -1px;
+    border-color: none;
+    font-family: "Open Sans", sans-serif;
+}
+.box-1 .form form .submit{
+    width: 200px;
+    height: 47px;
+    background-color: #f2994a;
+    color: white;
+    border-color: #f2994a;
+    border-radius: 4px;
+      font-family: "Open Sans", sans-serif;
+
+}
+.box-1 .form form span{
+    font-size: small;
+    text-decoration: underline;
+    font-family: "Open Sans", sans-serif;
+}

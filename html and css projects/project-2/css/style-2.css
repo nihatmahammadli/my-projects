@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: black;
+    color: rgba(255, 255, 255, .8);;
+    padding: 12px 0;
+    height: 100px;
+    border-bottom: 0.1px solid gray;
+}
+header .all-header{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+header .all-header nav ul{
+    display: flex;
+    gap: 38px;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    padding-top: 4px;
+    font-weight: 300;
+}
+header ,.all-header nav ul li a{
+    color: rgba(255, 255, 255, .8);
+    text-decoration : none;
+}
+header .all-header div{
+    font-size: 18px;
+    cursor: pointer;
+}
+header .header-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 160px; 
+    font-family: "Roboto", sans-serif;
+}
+header .header-2 ul {
+    display: flex;
+    gap: 23px;
+    list-style: none;
+    font-size: 13px;
+    padding-top: 5px;
+}
+header .header-2 h3{
+    color: rgba(255, 255, 255, 0.918);
+    padding-left: 8px;
+    font-size: 20px;
+}
+header .header-2 button{
+    background-color: #0071e3;
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+    width: 50px;
+    border-radius: 20px;
+    margin-top: -7px;
+    font-size: 12px;
+}
+/* ? kicik toxunuslar header ucun */
+header .header-2 ul .li-2, .li-3{
+    color: rgba(255, 255, 255, 0.979);
+}
+header .information{
+    text-align: center;
+    background-color: #1d1d1f;
+    height: 35px;
+    margin-top: -10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    padding-top: 9px;
+    color: rgba(255, 255, 255, .8);
+}
+header .information a{
+    text-decoration: none;
+    color: #0071e3;
+}
+
+/* ! header bitti main basladi */
+
+main img{
+    padding-top: 35px;
+    width: 100%;
+}
+main .purple-text{
+    background-color: black;
+    color: #ffb6ff;
+    margin-top: -4px;
+    text-align: left;
+    padding: 250px 250px;
+    font-size: 52px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+main .dark-iphone{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -35px;
+}
+main .dark-iphone .golden{
+    width: 440px;
+    height: 700px;
+    margin-left: 100px;
+}
+main .dark-iphone .text-golden{
+    padding: 100px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+main .dark-iphone .text-golden .Beyond{
+    font-size: 100px;
+    padding-bottom: 20px;
+    color: rgb(248, 230, 129);
+}
+main .dark-iphone .text-golden .Iphone-14{
+    color: rgb(206, 171, 82);
+    margin-bottom: 60px;
+}
+main .dark-iphone .text-golden p{
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+main .dark-iphone .text-golden .special{
+    color: rgb(255, 255, 255);
+}
+main .dark-iphone .text-golden .links{
+    margin-left: 160px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
+
+
+}
+main .dark-iphone .text-golden .links a{
+    text-decoration: none;
+    color: azure;
+    font-size: 22px;
+    margin-left: 22px;
+}
